@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Test Image Sources</title>
+    </head>
+    <body>
+        <h1>Testing Image Sources With Picture Tag</h1>
+        <picture>
+            <source media="(min-width: 2000px)" srcset="img/big-bear-full.webp" type="image/webp" />
+            <source media="(min-width: 2000px)" srcset="img/big-bear-full.jpg" type="image/jpeg">
+            <source media="(min-width: 1200px)" srcset="img/big-bear-1200w.webp" type="image/webp" />
+            <source media="(min-width: 1200px)" srcset="img/big-bear-1200w.jpg" type="image/jpeg">
+            <source media="(min-width: 320px)" srcset="img/big-bear-320w.webp" type="image/webp" />
+            <source media="(min-width: 320px)" srcset="img/big-bear-320w.jpg" type="image/jpeg">
+            <img src="img/big-bear-320w.jpg" width="320" height="214" style="width: 100%; height: auto;" />
+        </picture>
+    </body>
+</html>
